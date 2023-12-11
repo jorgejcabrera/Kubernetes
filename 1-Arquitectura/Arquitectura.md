@@ -25,7 +25,7 @@ En el master encontramos los siguientes componentes:
 2. **Kube Proxy**: se encarga de configurar la red, la red de contenedores de pods. En un mismo nodo puedo tener réplicas de  contenedores de distintos servicios.
 3. **Container Runtime**: es el runtime que vamos a usar para manejar contenedores. Por ejemplo: si vamos a usar docker cada nodo debe tenerlo instalado.
 
-```
-En kubernetes existe el concepto de *pods* que puede malinterpretarse como un container. Sin embargo no es así, porque un pod podría tener más de un contenedor.
-```
-
+<div style="background-color: #ffeeba; padding: 10px; border: 1px solid #ffc107; border-radius: 5px; line-height: 1.0;">
+    <strong>Nota:</strong>
+    <p>En kubernetes existe el concepto de *pods* que puede malinterpretarse como un container. Sin embargo, no es así, porque un pod podría tener más de un contenedor.</p>
+</div>
