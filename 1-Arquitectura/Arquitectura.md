@@ -1,5 +1,5 @@
 
-![https://github.com/jorgejcabrera/Kubernetes/blob/main/1-Arquitectura/img/Captura%20desde%202023-12-10%2022-27-28.png]
+![arquitectura](https://github.com/jorgejcabrera/Kubernetes/blob/main/1-Arquitectura/img/Captura%20desde%202023-12-10%2022-27-28.png)
 
 ## Master
 El master se comunica con los nodos, es el cerebro de kubernetes. Los nodos podrían pensarse como máquinas virtuales.
