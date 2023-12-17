@@ -45,6 +45,7 @@ Este enfoque es más eficiente en relación a ejecutar 2 veces el comando con _k
     <strong><span style="color: black;">Nota:</span></strong>  
     <p><span style="color: black;">Siempre es mejor usar manifiestos de kubernetes para crear objectos en el cluster.</span></p>  
 </div>
+
 ## Dos Containers en un POD
 ```yml
 apiVersion: v1
