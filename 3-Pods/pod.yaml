@@ -1,14 +1,23 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: podtest1
+  name: podtest2
   labels:
-    app: myapp
+    app: front
+    env: dev
 spec:
   containers:
     - name: cont1
-      image: python:3.6-alpine
-      command: ['sh', '-c', 'echo "cont1" > index.html && python -m http.server 8082']
+      image: nginx:alpine
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: podtest3
+  labels:
+    app: backend
+    env: dev
+spec:
+  containers:
     - name: cont2
-      image: python:3.6-alpine
-      command: ['sh', '-c', 'echo "cont2" > index.html && python -m http.server 8083']
+      image: nginx:alpine
