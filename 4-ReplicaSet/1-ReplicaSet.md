@@ -1,6 +1,7 @@
 Se encarga de mantener un número n de réplicas del mismo pod corriendo en determinado tiempo. Los pods deben tener un label para que el _replica set (rs)_ garantice la existencía de una cantidad de pods. Además el _replica set_ indicará mediante el uso de labels cual es e owner de un pod, y será útil en caso de overlapping de labels.
 
-### Commands
+### Manifest
+
 ```yaml
 apiVersion: apps/v1 # apps es el api group de los replica set
 kind: ReplicaSet

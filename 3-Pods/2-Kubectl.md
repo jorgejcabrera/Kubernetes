@@ -20,6 +20,7 @@ kubectl describe pod podtest
 - Borrar pods:
 ```shell
 kubectl delete pod podetest
+
 ```
 
 <div style="background-color: #ffeeba; padding: 10px; border: 1px solid #ffc107; border-radius: 5px; line-height: 1.0;">  
