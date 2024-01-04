@@ -1,0 +1,10 @@
+## Manifest
+
+```yml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: development
+  labels:
+    name: development
+```
