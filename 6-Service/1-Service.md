@@ -63,6 +63,7 @@ deployment-test-6cf85c55cf-xtql8   1/1     Running   0          29m   10.244.0.5
   exponer un puerto del nodo al cual un usuario podrá llegar. Entonces esto es básicamente un puerto que se abre a nivel
   del nodo para permitir el ingreso externo al cluster. Este _type_ no va a reemplazar el ClusterIp, sino que va a crear
   uno nuevo y abrirá un puerto en el nodo para recibir peticiones externas.
+  
   ![service](https://github.com/jorgejcabrera/Kubernetes/blob/main/6-Service/img/node_port.png)
 
 - LoadBalancer: crearán balanceadores externos en algún cloud provider (Aws, Asure, etc). Lo que sucederá es
